@@ -79,7 +79,7 @@ public class IfElseIf {
         } else if ((summa>=value1)&(summa<=value2)) {
             System.out.println(summa);
         } else System.out.println("Сумма - число трехзначное или больше");
-// commit and push into repo.Скинуть только ссылку.
+// commit and push into repo.Скинуть только ссылку
 
 
     }
