@@ -17,7 +17,6 @@ public class IfElseIf {
         isDevidedOn5 = a % pyat == 0;
         summaChisel = (a + b) % dwa == 0;
         proizvedenieChisel = (a * b) % pyat == 0;
-
         String message = "число а " + a;
         String s2 = "делится на 2";
         String s3 = " делится на 3";
@@ -62,21 +61,16 @@ public class IfElseIf {
         //задание 3* сложить 2 числа и проверить, что число двузначное. Напечатать 3 сообщения: "число однозначное", что только число, если оно двузначное и "число трехзначное и больше".
         // способ 1
         razryadChisla = String.valueOf(summa).length();
-
         if (razryadChisla == 1) {
             System.out.println("Сумма - число однозначное");
-
         } else if (razryadChisla == 2) {
             System.out.println(summa);
         } else System.out.println("Сумма - число трехзначное или больше");
 
         //способ 2
-
-
-        if (summa<=value1) {
+        if (summa <= value1) {
             System.out.println("Сумма - число однозначное");
-
-        } else if ((summa>=value1)&(summa<=value2)) {
+        } else if ((summa >= value1) & (summa <= value2)) {
             System.out.println(summa);
         } else System.out.println("Сумма - число трехзначное или больше");
 // commit and push into repo.Скинуть только ссылку
